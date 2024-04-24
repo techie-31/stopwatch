@@ -61,7 +61,8 @@ const start = () => {
   if (setTime == ""){
     document.querySelector("#timmer").style.border = "solid 2px red"
   }
-  else if (val == "false"){
+  
+  if (val == "false"){
     contaner.style.display = "none";
     watch(setTime);
   }
