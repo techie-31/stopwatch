@@ -90,6 +90,7 @@ const rs = () => {
 const stopwatch = () => {
   document.querySelector("#main-con").style.display = "none";
   let val = document.querySelector("#timmer").dataset.bool = true
+  document.querySelector("#timmer").value = 1
   watch("it will never end");
 };
 
@@ -98,13 +99,13 @@ const pause = () => {
 
   if (ps["data-z"] == false) {
     ps.innerHTML = "||";
-    console.log("if");
+    // console.log("if");
     ps["data-z"] = true;
     start();
   } else {
     ps.innerHTML = "|>";
     clearInterval(engine);
-    console.log("else");
+    // console.log("else");
     ps["data-z"] = false;
   }
 };
