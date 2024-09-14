@@ -8,5 +8,3 @@
 
 ## Visit this website on 
  https://techie-31.github.io/stopwatch/
-
-### 🚩 Jai Shri Ram 🚩
