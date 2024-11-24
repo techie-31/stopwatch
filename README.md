@@ -1,6 +1,6 @@
 # Stop Watch
 
-#### it's a Stopwatch website
+#### Stopwatch website project
 
 ## 🔗 Links
 
